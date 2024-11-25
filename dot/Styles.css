@@ -1,0 +1,87 @@
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    
+    color: #4b2e07;
+    text-shadow: 1px 1px 0 #fff8dc;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/18393282/pexels-photo-18393282/free-photo-of-white-paint-on-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+    
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #2c074b;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #4b2e07;
+    border: 2px solid #4b2e07;
+    padding: 5px 10px;
+    background-color: rgba(255, 248, 220, 0.8);
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4b2e07;
+    color: #fff8dc;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 248, 220, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4b2e07;
+    display: inline-block;
+}
+
+section p, section ul {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
